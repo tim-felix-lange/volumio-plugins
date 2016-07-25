@@ -1,3 +1,18 @@
 {
-
+  "enabled": {
+    "type": "boolean",
+    "value": false
+  },
+  "name": {
+    "type": "string",
+    "value": "volumio"
+  },
+  "codePairing": {
+    "type": "boolean",
+    "value": false
+  },
+  "code": {
+    "type": "string",
+    "value": "0000"
+  },
 }
