@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script sets up the bluetooth adapter and must be executed after each start of volumio
 config=$(sudo hciconfig -a)
 if [ ${config:+1} ]
 then
