@@ -50,6 +50,8 @@ EOT
 
 sudo sed -i '/Name =/c\Name = volumio' /etc/bluetooth/main.conf
 sudo sed -i '/Class =/c\Class = 0x20041C' /etc/bluetooth/main.conf
+sudo sed -i '/DiscoverableTimeout =/c\DiscoverableTimeout = 0' /etc/bluetooth/main.conf
+
 
 
 
